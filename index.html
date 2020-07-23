@@ -1,1 +1,30 @@
-test123
+<html>
+  <body>
+    <p id="priyanka"></p>
+  </body>
+  <script>
+    function codeAddress() {
+
+    var items = [
+      'sana s',
+      'sana h',
+      'omar',
+      'wally',
+      'ayesha',
+      'rafey',
+      'wasay',
+      'azima',
+      'sumaiya',
+      'qbaid',
+      'sameen',
+      'ambreen',
+      'uzair'
+    ];
+
+    var item = items[Math.floor(Math.random() * items.length)];
+
+    document.getElementById("priyanka").innerHTML=item;
+  }
+  window.onload = codeAddress;
+  </script>
+</html>
